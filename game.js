@@ -27,7 +27,7 @@ var checkdead = setInterval(function(){
     if(blockLeft<20 && blockLeft>0 && characterTop>=130){
         block.style.animation = "none";
         block.style.display = "none";
-        alert("Refresh The Page To Start Again I Dare You");
+        alert("Refresh The Page To Start Again ");
     }
 },10);
 
