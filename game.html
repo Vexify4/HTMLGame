@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" onkeyup="jump()">
+    <head>
+        <link rel="stylesheet" href="css/main.css">
+        <title>Saddle Back game</title>
+    </head>
+    <body>
+        <audio controls autoplay muted>
+            <source src="sound/song1.mp3" type="audio/mpeg"></source>
+            Your browser does not support the audio element.
+            </audio> 
+        <div id="gamecanvas" onclick="jump()">       
+            <div id="character"></div>
+            <div id="block"></div>
+            <h1 id="score"></h1>
+        </div>
+    </body>
+    <script src="js/game.js"></script>
+</html>
